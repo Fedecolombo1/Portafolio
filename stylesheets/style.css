@@ -1,0 +1,25 @@
+body {
+    font-family: "Inconsolata", monospace;
+    color: #0d1e2d;
+  }
+
+main{
+    padding: 40px !important;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre{
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+    text-align: start;
+}
