@@ -41,3 +41,41 @@ img:hover{
     padding: 12px;
     width: 30% !important;
 }
+
+.copy{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.mobile{
+    display: none !important;
+}
+.desk{
+    display: flex !important;
+}
+
+
+@media (max-width: 768px) {
+    .mobile{
+        display: flex !important;
+    }
+    .desk{
+        display: none !important;
+    }
+
+    main{
+        padding: 10px !important;
+    }
+
+    .nombre{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .foto{
+        padding: 12px;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+}
