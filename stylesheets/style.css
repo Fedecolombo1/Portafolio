@@ -1,5 +1,6 @@
 body {
     font-family: "Inconsolata", monospace;
+    font-family: 'Abel', sans-serif !important;
     color: #0d1e2d;
   }
 
@@ -15,11 +16,28 @@ main{
 
 .nombre{
     margin-bottom: 40px;
-    font-size: 23px;
+    font-size: 33px;
+    font-weight: bolder;
 }
 
 a{
     text-decoration: none !important;
     color: black !important;
     text-align: start;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+img:hover{
+    
+}
+
+.parte{
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.foto{
+    padding: 12px;
+    width: 30% !important;
 }
