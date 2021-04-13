@@ -54,6 +54,20 @@ img:hover{
     display: flex !important;
 }
 
+@media (max-width: 1440px) {
+    .nombre{
+        margin-left: -2%;
+    }
+
+    nav{
+        margin-left: -2.8% !important;
+    }
+    .foto{
+        padding: 12px;
+        width: 33% !important;
+    }
+}
+
 
 @media (max-width: 768px) {
     .mobile{
